@@ -16,19 +16,20 @@ notString("not bad") → "not bad"
     }
     public static String notString(String str) {
 
-//        if(!str.startsWith("not")){
-//            return "not "+ str;
+//        if(str.startsWith("not")){
+//            return  str;
 //        }
 //
-//           return str;
-
-   // }
-        if (str.length() >= 3 && str.substring(0, 3).equals("not"))
+//           return "not "+str;
+//
+//    }
+        //2.yol
+        if (str.length() >= 3 && str.substring(0, 3).equals("not")) //not bad
          {
             return str;
 
         }
-        return "not "+str;
+        return "not "+str; //x and candy
         }
 
 }
