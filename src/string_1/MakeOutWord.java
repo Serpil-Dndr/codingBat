@@ -1,4 +1,4 @@
-package warmUp_2;
+package string_1;
 
 public class MakeOutWord {
     public static void main(String[] args) {

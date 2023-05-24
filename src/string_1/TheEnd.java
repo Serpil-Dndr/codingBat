@@ -1,4 +1,4 @@
-package warmUp_2;
+package string_1;
 
 public class TheEnd {
     public static void main(String[] args) {
